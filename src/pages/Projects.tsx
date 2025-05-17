@@ -6,7 +6,7 @@ const projects = [
     description:
       "Interactive dashboard for visualizing and analyzing complex datasets with modern tools.",
     tags: ["Python", "Pandas", "React", "D3.js"],
-    image: "https://www.itpt.co.uk/wp-content/uploads/2023/03/Data-Analytics-1.jpg", // zastąp swoim URL
+    image: "https://www.itpt.co.uk/wp-content/uploads/2023/03/Data-Analytics-1.jpg", 
     link: "#",
   },
   {
@@ -14,7 +14,7 @@ const projects = [
     description:
       "Developed a machine learning model to predict customer behavior based on historic data.",
     tags: ["Python", "Scikit-Learn", "TensorFlow", "Jupyter"],
-    image: "https://miro.medium.com/v2/resize:fit:1400/1*cG6U1qstYDijh9bPL42e-Q.jpeg", // zastąp swoim URL
+    image: "https://miro.medium.com/v2/resize:fit:1400/1*cG6U1qstYDijh9bPL42e-Q.jpeg", 
     link: "#",
   },
   {
@@ -22,7 +22,7 @@ const projects = [
     description:
       "End-to-end analytics solution for tracking user behavior, sales performance, and more.",
     tags: ["SQL", "Power BI", "Python", "AWS"],
-    image: "https://cdn.prod.website-files.com/6748ac0fd3dcf26620bd014f/67f4c807518b99a581eb78d5_21.jpg", // zastąp swoim URL
+    image: "https://cdn.prod.website-files.com/6748ac0fd3dcf26620bd014f/67f4c807518b99a581eb78d5_21.jpg", 
     link: "#",
   },
 ];
@@ -38,7 +38,7 @@ const Projects = () => {
               Explore some of my recent work in programming and data analysis, showcasing my technical expertise and problem-solving skills.
             </p>
           </div>
-          {/* Możesz tu dodać link 'View All Projects' jeśli chcesz */}
+          {}
         </div>
 
         <div className="grid gap-8 md:grid-cols-3">
