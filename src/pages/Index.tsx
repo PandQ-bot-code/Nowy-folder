@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 
-// Komponent About
+//  About
 const About = () => (
   <section
     id="about"
@@ -64,7 +64,7 @@ const About = () => (
   </section>
 );
 
-// Komponent Skills z paskami procentowymi
+// Skills 
 const skillsData = [
   { name: "React", level: 90 },
   { name: "TypeScript", level: 85 },
@@ -98,7 +98,7 @@ const Skills = () => (
   </section>
 );
 
-// Komponent Projects z przykładowymi projektami i tagami
+// Projects 
 const projectsData = [
   {
     title: "Data Analysis Dashboard",
@@ -181,14 +181,14 @@ const Projects = () => (
   </section>
 );
 
-// Komponent Contact z przesłanego kodu
+// Contact 
 const Contact = () => (
   <section
     id="contact"
     className="bg-konrad-blue text-white py-24 px-6 md:px-12 lg:px-20"
   >
     <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12">
-      {/* Lewa część - info kontaktowe */}
+      {/*  info kontaktowe */}
       <div className="space-y-6">
         <h2 className="text-3xl md:text-4xl font-bold">Let's Work Together</h2>
         <p className="text-white/90">
@@ -214,7 +214,7 @@ const Contact = () => (
         </div>
       </div>
 
-      {/* Prawa część - formularz */}
+      {/*  formularz */}
       <div className="bg-white text-gray-900 p-8 rounded shadow-md">
         <h3 className="text-2xl font-semibold mb-6">Send Me a Message</h3>
         <form className="space-y-4">
@@ -261,7 +261,7 @@ const Contact = () => (
   </section>
 );
 
-// Komponent stopki
+//  stopka
 const Footer = () => (
   <footer className="bg-black text-white px-6 md:px-12 lg:px-20 py-12 text-sm">
     <div className="max-w-7xl mx-auto grid md:grid-cols-4 gap-10">
