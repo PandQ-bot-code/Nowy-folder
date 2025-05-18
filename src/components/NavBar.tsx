@@ -25,7 +25,7 @@ const NavBar = () => {
           <Menu size={28} />
         </div>
 
-        {/* Menu desktop */}
+        {/* Menu */}
         <ul className="hidden md:flex gap-6 text-lg items-center">
           {sections.map(({ id, label }) => (
             <li key={id}>
@@ -49,7 +49,7 @@ const NavBar = () => {
         </ul>
       </div>
 
-      {/* Mobile Menu Off-Canvas */}
+      {/* Mobile */}
       {open && (
         <div className="fixed top-0 right-0 w-64 h-full bg-white shadow-lg z-50 transition-transform duration-300">
           <div className="flex justify-end p-4">
